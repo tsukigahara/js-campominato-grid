@@ -32,7 +32,7 @@ main {
 
 .rows {
     width: 100%;
-    max-width: 600px;
+    max-width: 550px;
     display: flex;
     flex-flow: row nowrap;
     gap: 4px;
