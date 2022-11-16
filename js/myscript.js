@@ -42,7 +42,7 @@ function layoutGen (value){
             blockHTML.addEventListener("click",
             function marked(){
                 blockHTML.style.backgroundColor = "lightgreen";
-                console.log("clicked"+blockHTML)
+                console.log("clicked block ")
             });
             blockHTML.append(numerate);
             numerate++;
