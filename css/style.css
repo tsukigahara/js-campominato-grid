@@ -1,0 +1,69 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+} 
+
+header {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+
+main {
+    width: 100%;
+    height: calc(100% - 200px);
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rows {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 4px;
+    padding: 2px 0;
+}
+
+.blocks {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(200, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70%;
+}
+
+.center {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
